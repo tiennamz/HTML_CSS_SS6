@@ -1,0 +1,37 @@
+.post_list {
+    background-color: #eef4f6;
+    padding: 10px;
+    list-style: none;
+    width: 500px;
+ 
+}
+.post_item_feature {
+    background-color: #f0db75;
+}
+li:hover{
+    background-color: aqua;
+}
+li + li{
+    margin-top: 10px;
+}
+li img{
+  height: 100px;
+  width: 100px;  
+  float: left;
+}
+li > p{  
+    font-size: 25px;
+    line-height: 100px;
+
+}
+li  a{
+        text-decoration: none;
+    color: #0a5b82;
+}
+a::after{
+    content: "\2192";
+}
+.post_item {
+    background-color: #d9eaf2;
+}
+

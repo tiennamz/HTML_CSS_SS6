@@ -1,0 +1,54 @@
+.phone{
+    width: 630px;
+    height: 300px;
+    border: 0px solid;
+    background-color: #eef4f6;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    padding: 10px;
+     
+}
+div{
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 16px;
+}
+.phone_number {
+    float:left;
+    background-color: #d9eaf2;
+    width: 200px;
+
+}
+.name {
+    text-align: center;
+}
+.price {
+    text-align: center;
+    color: #2f637c;
+}
+
+.submit{
+width: 100px;
+height: 30px;
+margin-bottom: 10px;
+border-radius: 8px;
+border: none;
+background-color: #e6c419;
+color: #ffffff;
+}
+.phone_number:hover{
+    background-color: #bee2f4;
+}
+.submit::after{
+    content:" \2192";
+}
+.submit:hover{
+    cursor: pointer;
+}

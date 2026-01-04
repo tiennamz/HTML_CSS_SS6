@@ -1,0 +1,31 @@
+body{
+    width: 20%;
+    padding: 0%;
+    font-size: 30px;
+}
+.list{
+    background-color: #eef4f6;
+    padding: 1px;
+    border: 0px solid;
+    border-radius: 10px ;
+    
+}
+.products {
+    list-style: none;
+    padding: 15px;
+}
+ul li{
+    border: 0px solid #f0db75;
+    border-radius: 8px;
+    text-indent: 10px;
+   
+    background-color: #d9eaf2;
+    margin-bottom: 10px;
+}
+
+.true {
+   background-color: #f0db75;
+}
+ul li:hover{
+    background-color: aqua;
+}

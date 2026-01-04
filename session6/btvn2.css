@@ -1,0 +1,18 @@
+body{
+    background: #eef4f6;
+    font-size: 50px;font-family: Arial, Helvetica, sans-serif;
+}
+.menu li a{
+    text-decoration: none;
+    color: #175e82;
+}
+.list{
+    list-style: none;
+}
+.link::after{
+    content: "\2192";
+    color: #31a1db;
+}
+.link:hover{
+    color: aqua;
+}

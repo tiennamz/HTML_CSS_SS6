@@ -1,0 +1,33 @@
+
+
+button[ data-type="primary"] {
+    width: 100px; 
+    height: 30px;    
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #269dd9;
+    color: #ffffff;
+    border: none;
+}
+button[data-type="secondary"]{
+
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #73848c;
+    border: none;
+
+}
+button[data-type="danger"]{
+
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #d92626;
+    border: none;
+    
+}
